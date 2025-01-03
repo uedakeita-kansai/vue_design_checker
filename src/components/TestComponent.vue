@@ -11,7 +11,7 @@
 						<v-btn class="mt-4" small @click="reset"> reset </v-btn>
 					</v-col>
 					<v-col cols="2" style="text-align: center;" align-self="center">
-						<h2 :id="idContents" :class="classContents" :style="styleContents">SCSS Text</h2>         
+						<h2 :id="idContents" :class="classContents" :style="styleContents">Text to be designed</h2>         
 					</v-col>
 					<v-col cols="4">
 						<v-switch v-model="isStyle" inset label="Tag内にStyleを適用" hide-details color="rgb(255, 0, 255)"></v-switch>
